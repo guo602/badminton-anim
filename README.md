@@ -16,6 +16,37 @@
 
 ## 项目一览
 
+### startup · 入门练习
+
+<img src="docs/images/startup_court.jpg" width="400">
+
+最早的 ManimGL 练习：设置相机，逐条画出场地底色、边线和中线。
+`images/` 里保存了早期截图。
+
+### yylogo · YONEX Logo 尺规作图
+
+<table><tr>
+<td><img src="docs/images/yylogo_compass.jpg" width="265"></td>
+<td><img src="docs/images/yylogo_construct.jpg" width="265"></td>
+<td><img src="docs/images/yylogo_final.jpg" width="265"></td>
+</tr></table>
+
+用自制的圆规（`Compass` 类）和直尺，一步步画辅助圆和交点，复原 YONEX 的 “YY” 标志，最后填色成型。
+可以作为系列片头或彩蛋。`yylogoWarmUp.py` 是前期 SVG 描边的练习版本。
+
+### badminton_0 · 场地与单打发球
+
+<table><tr>
+<td><img src="docs/images/b0_3d_net.jpg" width="400"></td>
+<td><img src="docs/images/b0_rules.jpg" width="400"></td>
+</tr><tr>
+<td><img src="docs/images/b0_diagonal.jpg" width="400"></td>
+<td><img src="docs/images/b0_side.jpg" width="400"></td>
+</tr></table>
+
+系列第一集，3D 场景。从场地边框开始逐步画出完整球场，标注球网高度 1.55 m，并在多个视角之间切换。
+随后讲单打发球的口诀“赢者发球、左单右双、发对角线”，用黄框高亮发球区，在俯视图里演示对角发球。
+
 ### badminton_1 · 双打发球轮换（新手向）
 
 <table><tr>
@@ -31,37 +62,6 @@
 接着用第一视角从 0:0 打到 1:2 走一遍，发球权换到对面时镜头绕到 C·D 身后。
 最后出一道 2:2 的互动题，引导观众在评论区作答。
 配有 AI 配音、合成配乐和中英双语字幕，支持换成自己的录音。
-
-### badminton_0 · 场地与单打发球
-
-<table><tr>
-<td><img src="docs/images/b0_3d_net.jpg" width="400"></td>
-<td><img src="docs/images/b0_rules.jpg" width="400"></td>
-</tr><tr>
-<td><img src="docs/images/b0_diagonal.jpg" width="400"></td>
-<td><img src="docs/images/b0_side.jpg" width="400"></td>
-</tr></table>
-
-系列第一集，3D 场景。从场地边框开始逐步画出完整球场，标注球网高度 1.55 m，并在多个视角之间切换。
-随后讲单打发球的口诀“赢者发球、左单右双、发对角线”，用黄框高亮发球区，在俯视图里演示对角发球。
-
-### yylogo · YONEX Logo 尺规作图
-
-<table><tr>
-<td><img src="docs/images/yylogo_compass.jpg" width="265"></td>
-<td><img src="docs/images/yylogo_construct.jpg" width="265"></td>
-<td><img src="docs/images/yylogo_final.jpg" width="265"></td>
-</tr></table>
-
-用自制的圆规（`Compass` 类）和直尺，一步步画辅助圆和交点，复原 YONEX 的 “YY” 标志，最后填色成型。
-可以作为系列片头或彩蛋。`yylogoWarmUp.py` 是前期 SVG 描边的练习版本。
-
-### startup · 入门练习
-
-<img src="docs/images/startup_court.jpg" width="400">
-
-最早的 ManimGL 练习：设置相机，逐条画出场地底色、边线和中线。
-`images/` 里保存了早期截图。
 
 ## 系列风格
 
